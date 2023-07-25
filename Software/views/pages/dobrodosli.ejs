@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dobrodošli - SteamDB</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+      .buttons{
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+        padding-top: 20px;
+      }
+    </style>
+</head>
+<body style="background-image: url('https://wallpaperbat.com/img/184256-forest-desktop-wallpaper.jpg');">
+  <h1 style="color: white ; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; margin-top: 25; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;">Dobrodošli na SteamDB</h1>
+  <h1 style="color: white ; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; margin-top: -25px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 5px;">________________________</h1>
+  <h3 style="color: white ; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px ;text-align: center; margin-top: 0; margin-bottom: 5px; padding-top: 5px; padding-bottom: 25px;">Što kažu korisnici o našoj platformi?</h3>
+  <div>
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">  </th>
+          <th scope="col">  </th>
+          <th scope="col">  </th>
+          <th scope="col">Korisnik</th>
+          <th scope="col">Videoigra</th>
+          <th scope="col">Komentar</th>
+          <th scope="col">Preporuka</th>
+          <th scope="col">  </th>
+          <th scope="col">  </th>
+          <th scope="col">  </th>
+        </tr>
+      </thead>
+      <tbody>
+      <%lista_rezultat.forEach(rezultat => {%>
+        <tr>
+          <td>  </td>
+          <td>  </td>
+          <td>  </td>
+          <td><%= rezultat.nadimak %></td>
+          <td><%= rezultat.naziv_igre %></td>
+          <td><%= rezultat.opis_recenzije %></td>
+          <td><%= rezultat.preporuka %></td>
+          <td>  </td>
+          <td>  </td>
+          <td>  </td>
+        </tr>
+      <%})%>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="inline">
+      <form action="/prijava" class="buttons">
+        <button class="submit-button"  ><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">Prijava</span></button>
+      </form>
+      <form action="/registracija" class="buttons">
+        <button class="submit-button"  ><span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; ">Registracija</span></button>
+      </form>
+  </div>
+  
+    
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prijava - SteamDB</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body style="background-image: url('https://wallpaperbat.com/img/184256-forest-desktop-wallpaper.jpg');">
+    <h1 style="color: white ; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; text-align: center; margin-top: 0; margin-bottom: 15px; padding-top: 25px; padding-bottom: 25px;">Prijavi se na SteamDB</h1>
+    <form class="container" method="post" action="/prijava" id="prijava">
+        <div class="form-group">
+            <text style="color:white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;">Korisničko ime: </text> <input class="form-control" name="korisnicko_ime" required >
+            <text style="color: white; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;">Lozinka: </text> <input class="form-control" name="lozinka" required>
+            
+        </div>
+        
+        <div class="inline">
+            <button> <span style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;">PRIJAVA</span></button>
+            <% if(message != '') { %>
+                <text style="margin-left: 10px; color:indianred; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 20px;"> Greška: <%= message %> </text>
+            <% } %>
+        </div>
+        
+    </form>
+    
+</body>
+</html>
