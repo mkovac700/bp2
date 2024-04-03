@@ -97,7 +97,7 @@ Pomoćni entiteti:
 ERA model:
 
 <div align="center">
-  <a href="./Documentation/images/Slika1.png"><img alt="era_model" src="./Documentation/images/Slika1.png"></a>
+  <a href="https://raw.githubusercontent.com/mkovac700/bp2/docs/Documentation/images/Slika1.png"><img alt="era_model" src="https://raw.githubusercontent.com/mkovac700/bp2/docs/Documentation/images/Slika1.png"></a>
 </div>
 
 <br>
@@ -147,7 +147,7 @@ Za pokretanje rješenja bit će vam potrebno sljedeće:
     * Sada se može kliknuti na `Connect` te pristupiti i upravljati bazama podataka na prethodno kreiranom klasteru
 
     <div align="center">
-      <a href="./Documentation/images/Screenshot_1.png"><img alt="steamdb" src="./Documentation/images/Screenshot_1.png"></a>
+      <a href="https://raw.githubusercontent.com/mkovac700/bp2/docs/Documentation/images/Screenshot_1.png"><img alt="steamdb" src="https://raw.githubusercontent.com/mkovac700/bp2/docs/Documentation/images/Screenshot_1.png"></a>
     </div>
 
   * Povežite MongoDB bazu podataka s aplikacijom:
@@ -232,7 +232,7 @@ Za pokretanje rješenja bit će vam potrebno sljedeće:
   * Ako je sve u redu, trebao bi se ispisati sljedeći sadržaj:
 
   <div align="center">
-    <a href="./Documentation/images/Slika2.png"><img alt="steamdb" src="./Documentation/images/Slika2.png"></a>
+    <a href="https://raw.githubusercontent.com/mkovac700/bp2/docs/Documentation/images/Slika2.png"><img alt="steamdb" src="https://raw.githubusercontent.com/mkovac700/bp2/docs/Documentation/images/Slika2.png"></a>
   </div>
 
   <br>
@@ -242,19 +242,19 @@ Za pokretanje rješenja bit će vam potrebno sljedeće:
 * Početna stranica:
 
 <div align="center">
-  <a href="./Documentation/images/Slika3.png"><img alt="steamdb" src="./Documentation/images/Slika3.png"></a>
+  <a href="https://raw.githubusercontent.com/mkovac700/bp2/docs/Documentation/images/Slika3.png"><img alt="steamdb" src="https://raw.githubusercontent.com/mkovac700/bp2/docs/Documentation/images/Slika3.png"></a>
 </div>
 
 * Registracija:
 
 <div align="center">
-  <a href="./Documentation/images/Slika4.png"><img alt="steamdb" src="./Documentation/images/Slika4.png"></a>
+  <a href="https://raw.githubusercontent.com/mkovac700/bp2/docs/Documentation/images/Slika4.png"><img alt="steamdb" src="https://raw.githubusercontent.com/mkovac700/bp2/docs/Documentation/images/Slika4.png"></a>
 </div>
 
 * Prijava:
 
 <div align="center">
-  <a href="./Documentation/images/Slika5.png"><img alt="steamdb" src="./Documentation/images/Slika5.png"></a>
+  <a href="https://raw.githubusercontent.com/mkovac700/bp2/docs/Documentation/images/Slika5.png"><img alt="steamdb" src="https://raw.githubusercontent.com/mkovac700/bp2/docs/Documentation/images/Slika5.png"></a>
 </div>
 
 <br>
@@ -271,14 +271,7 @@ Za pokretanje rješenja bit će vam potrebno sljedeće:
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" width=100/>
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongoose/mongoose-original-wordmark.svg" width=100/> &emsp;
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/npm/npm-original-wordmark.svg" width=100/> &emsp;
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width=100/> &emsp;
-  <img src="data:image/png;base64,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" width=100>
-          
-
-          
-
-
-
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width=100/>
           
 </div>
 
